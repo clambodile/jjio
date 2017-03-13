@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+@import './components/HomePage';
+@import './components/Nameplate';
+@import './components/Menu';
+
+$cool-gray: #707C80;
+$background-gray: #EFEEF0;
+$font-stack: "Roboto", sans-serif;
+
+body {
+  background-color: $background-gray;
+}
+
+#app-container {
+  font-family: $font-stack;
+  color: $cool-gray;
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
