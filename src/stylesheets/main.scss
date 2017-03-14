@@ -23,17 +23,19 @@ body {
 
 #app-container {
   @include no-select();
+  font-family: $font-stack;
+  color: $cool-gray;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: $font-stack;
-  color: $cool-gray;
   max-width: 45em;
   margin: 0 auto;
 }
 
 .clickable {
   cursor: pointer;
+  text-decoration: none;
+  color: $cool-gray;
 }
 
