@@ -2,6 +2,7 @@
   "name": "johnjacob.io",
   "version": "1.0.0",
   "description": "a personal website",
+  "repository": "https://github.com/clambodile/jjio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
