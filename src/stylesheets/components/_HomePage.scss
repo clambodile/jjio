@@ -1,4 +1,7 @@
 .home-page {
-  margin-top: 11em;
+  height: 75%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
