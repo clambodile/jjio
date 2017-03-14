@@ -9,26 +9,39 @@ export default class HomePage extends Component {
 
     this.descriptors= [
       'Software Engineer',
-      'Jingleheimerschmidt',
-      'Go Player',
       'Creator',
-      'Dungeon Master',
       'Problem Solver',
-      'Board Gamer',
-      'Please Stop Clicking',
+      'Jingleheimerschmidt',
+      'Dungeon Master',
+      'Organ Donor',
+      '6th Grade Spelling Bee Champ',
+      'Clicking is painful for websites.',
     ];
 
     this.state = {
       descriptorI : 0,
     };
+
+    this.cycleDescriptor = this.cycleDescriptor.bind(this);
+
   }
 
-
+  cycleDescriptor(e) {
+    if (this.state.descriptorI < this.descriptors.length - 1) {
+      this.setState({ descriptorI: this.state.descriptorI + 1});
+    }
+    else {
+      this.setState({ descriptorI: 0 });
+    }
+  }
 
   render() {
     return (
       <div className="home-page">
-        <Nameplate descriptor={this.descriptors[this.state.descriptorI]}/>
+        <Nameplate 
+          descriptor={this.descriptors[this.state.descriptorI]}
+          cycleDescriptor={this.cycleDescriptor}
+        />
         <Menu />
       </div>
     );
