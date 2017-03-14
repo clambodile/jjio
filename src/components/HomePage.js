@@ -15,7 +15,7 @@ export default class HomePage extends Component {
       'Dungeon Master',
       'Organ Donor',
       '6th Grade Spelling Bee Champ',
-      'Clicking is painful for websites.',
+      'Please stop clicking',
     ];
 
     this.state = {
