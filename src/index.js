@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomePage from './components/HomePage.js';
+import App from './components/App.js';
 
 require('./stylesheets/main.scss');
 
-ReactDOM.render(<HomePage />, document.getElementById('app-container'));
+ReactDOM.render(<App />, document.getElementById('app-container'));
 
