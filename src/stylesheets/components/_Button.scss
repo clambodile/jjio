@@ -1,0 +1,27 @@
+$cool-gray: #707C80;
+$active-gray: #606C70;
+$background-gray: #EFEEF0;
+
+.button {
+  background: $background-gray;
+  color: $cool-gray;
+  border: solid;
+  border-color: $cool-gray;
+  font-size: 0.5em;
+  font-family: Roboto;
+  font-weight: 250;
+  padding: 0 14px; 
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  width: 5em;
+}
+
+.button:hover {
+  color: $active-gray;
+  border-color: $active-gray;
+}
+
+.button:focus {
+  outline: none;
+}
