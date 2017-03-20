@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,250');
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One|Roboto:100,250');
+@import './Colors';
 @import './Animations';
 @import './components/HomePage';
 @import './components/Nameplate';
@@ -14,18 +15,16 @@
   user-select: none;
 }
 
-$cool-gray: #707C80;
-$background-gray: #EFEEF0;
-$font-stack: "Roboto", sans-serif;
+$font-stack: "Monaco", sans-serif;
 
 body {
-  background-color: $background-gray;
+  background-color: $background;
 }
 
 #app-container {
   @include no-select();
   font-family: $font-stack;
-  color: $cool-gray;
+  color: $text1;
   height: 100%;
   display: flex;
   flex-direction: column;

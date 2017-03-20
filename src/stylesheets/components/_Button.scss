@@ -1,15 +1,13 @@
-$cool-gray: #707C80;
-$active-gray: #606C70;
-$background-gray: #EFEEF0;
+@import '../Colors';
 
 .button {
-  background: $background-gray;
-  color: $cool-gray;
+  background: $background;
+  color: $text4;
   border: solid;
-  border-color: $cool-gray;
+  border-color: $text4;
   font-size: 0.5em;
   font-family: Roboto;
-  font-weight: 250;
+  //font-weight: 250;
   padding: 0 14px; 
   line-height: 1.8;
   appearance: none;
@@ -18,8 +16,8 @@ $background-gray: #EFEEF0;
 }
 
 .button:hover {
-  color: $active-gray;
-  border-color: $active-gray;
+  color: $text5;
+  border-color: $text5;
 }
 
 .button:focus {
