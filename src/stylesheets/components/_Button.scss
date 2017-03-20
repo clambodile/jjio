@@ -1,13 +1,13 @@
 @import '../Colors';
 
 .button {
+  @extend .clickable;
+  font-size: 1.5em;
+  font-family: Roboto;
   background: $background;
   color: $text4;
   border: solid;
   border-color: $text4;
-  font-size: 0.5em;
-  font-family: Roboto;
-  //font-weight: 250;
   padding: 0 14px; 
   line-height: 1.8;
   appearance: none;

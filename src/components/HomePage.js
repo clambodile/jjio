@@ -9,8 +9,8 @@ export default class HomePage extends Component {
 
     this.descriptors= [
       'Software Engineer',
+      'Web Developer',
       'Creator',
-      'Problem Solver',
       'Jingleheimerschmidt',
       'Dungeon Master',
       'Organ Donor',
