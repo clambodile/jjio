@@ -3,7 +3,6 @@
 .button {
   @extend .clickable;
   font-size: 1.5em;
-  font-family: Roboto;
   background: $background;
   color: $text4;
   border: solid;

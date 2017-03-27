@@ -5,7 +5,7 @@ export default function Button(props) {
   
   return (
     <Link to={props.route}>
-      <button className="button" onClick={props.onClick || null}>
+      <button className="button" >
         {props.text}
       </button>
     </Link>

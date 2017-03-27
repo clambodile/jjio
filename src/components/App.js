@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, BrowserHistory } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
 import HomePage from './HomePage.js';
@@ -11,7 +11,7 @@ export default class App extends Component {
   
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter history={BrowserHistory}>
         <div>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
