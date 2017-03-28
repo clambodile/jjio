@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot",
+    "dev-static": "NODE_ENV=production node_modules/webpack/bin/webpack.js",
     "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js -p"
   },
   "author": "John Jacob",
