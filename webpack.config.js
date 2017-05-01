@@ -22,7 +22,7 @@ devtool: "source-map",
 module: {
   loaders: [
   {
-    test:/\.js$/,
+    test:/\.(js|jsx)$/,
     loaders: ['react-hot-loader', 'jsx-loader', 'babel-loader',],
     exclude: /node_modules/,
   },
