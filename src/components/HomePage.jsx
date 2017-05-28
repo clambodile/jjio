@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Nameplate from './Nameplate';
-import Menu from './Menu';
+import Nameplate from './Nameplate.jsx';
+import Menu from './Menu.jsx';
 
 export default class HomePage extends Component {
 

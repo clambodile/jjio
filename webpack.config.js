@@ -12,7 +12,7 @@ function getEntrySources(sources) {
 module.exports = {
   entry: {
    bundle: getEntrySources([
-     './src/index.js'
+     './src/index.jsx'
      ]),
   },
   output: {

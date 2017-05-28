@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Link, BrowserHistory } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
-import HomePage from './HomePage.js';
-import AboutPage from './AboutPage.js';
-import ContactPage from './ContactPage.js';
-import ResumePage from './ResumePage.js';
+import HomePage from './HomePage.jsx';
+import AboutPage from './AboutPage.jsx';
+import ContactPage from './ContactPage.jsx';
+import ResumePage from './ResumePage.jsx';
 
 export default class App extends Component {
   

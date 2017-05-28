@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a personal website",
   "repository": "https://github.com/clambodile/jjio",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "dev": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot",
     "dev-static": "NODE_ENV=production node_modules/webpack/bin/webpack.js",
