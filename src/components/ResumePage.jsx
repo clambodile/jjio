@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './Button.jsx';
+import BackButton from './BackButton.jsx';
 
 export default class ResumePage extends Component {
 
@@ -7,7 +7,7 @@ export default class ResumePage extends Component {
     return (
       <div className="resume-page">
         
-        <Button text="Back" route="/"/>
+        <BackButton />
       </div>
     );
   }

@@ -12,7 +12,6 @@ export default class HomePage extends Component {
       'Web Developer',
       'Creator',
       'Jingleheimerschmidt',
-      'Dungeon Master',
       'Organ Donor',
       '6th Grade Spelling Bee Champ',
     ];
