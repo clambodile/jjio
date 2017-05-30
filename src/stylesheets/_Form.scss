@@ -1,0 +1,24 @@
+.form {
+  button, input, textarea {
+    font-family : inherit;
+  }
+
+  label, input, textarea {
+    margin-bottom: 1em;
+  }
+
+
+  label {
+    display: inline-block;
+    width: 5em;
+    vertical-align: top;
+  }
+  input, textarea {
+    width: 20em;
+  }
+
+  .buttonContainer {
+    text-align: center;
+  }
+  
+}

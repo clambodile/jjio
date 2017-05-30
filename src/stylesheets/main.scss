@@ -3,6 +3,9 @@
 @import './Colors';
 @import './Animations';
 
+@import './Layout';
+@import './Form';
+
 @import './components/AboutPage';
 @import './components/Button';
 @import './components/HomePage';
@@ -41,4 +44,3 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-

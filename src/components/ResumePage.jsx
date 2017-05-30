@@ -5,7 +5,7 @@ export default class ResumePage extends Component {
 
   render() {
     return (
-      <div className="resume-page">
+      <div className="page resume-page">
         
         <BackButton />
       </div>
