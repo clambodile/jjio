@@ -19,6 +19,7 @@ export default class HomePage extends Component {
     this.state = {
       descriptorI : 0,
       descriptorState: '',
+      handle: '',
     };
 
     this.cycleDescriptor = this.cycleDescriptor.bind(this);
@@ -26,6 +27,14 @@ export default class HomePage extends Component {
     this.fadeInDescriptor = this.fadeInDescriptor.bind(this);
     this.resetAnimation = this.resetAnimation.bind(this);
 
+  }
+
+  componentWillMount() {
+    this.setState({handle: setInterval(this.cycleDescriptor.bind(this), 3000)})
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.handle)
   }
 
   resetAnimation() {
