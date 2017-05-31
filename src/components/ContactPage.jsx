@@ -13,12 +13,11 @@ export default class ContactPage extends Component {
         message: '',
       },
       success: false,
-      failure: true,
+      failure: false,
     }
 
     this.handleChange = this.handleChange.bind(this)
     this.sendEmail = this.sendEmail.bind(this)
-    this.showSuccessMessage = this.showSuccessMessage.bind(this)
     this.clearMessage = this.clearMessage.bind(this)
   }
 
