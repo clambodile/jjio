@@ -89,7 +89,7 @@ export default class ContactPage extends Component {
           </textarea>
         </div>
         <div className="buttonContainer">
-          <button onClick={this.sendEmail}>Send</button>
+          <button className="button" onClick={this.sendEmail}>Send</button>
         </div>
         <div className="g-rechaptcha" data-sitekey="6LdMWiMUAAAAALnSZflIjrVy376JNmxTyil-HHrg"></div>
         </form>
